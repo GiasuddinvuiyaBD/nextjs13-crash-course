@@ -53,4 +53,20 @@ I didn't use it.
 For showing header component all our pages we can call it on our layout page.
 
 
+## RSC OR React Server Component. 
+
+### Advantage of React Server Component.
+1. Load faster don't have wait for javascript loading. 
+2. Smaller Client bundle size
+3. SEO Friendly
+4. Access to resurce the cliend can't access.
+5. Hide sensitive data to the cliend
+6. More secure against XSS attracts.
+7. improve developer experience.
+
+// Just like with anything else there are also disadvantageses. 
+
+- Not as interactive
+- No component state. We can not use 'useState' hook
+- No component lifecycle method. we can not use the 'useEffect' hook
 
