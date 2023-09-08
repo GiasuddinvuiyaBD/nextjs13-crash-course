@@ -46,3 +46,11 @@ Inside the matadata we can set global data like title,descript and api related d
 
 
 
+## next/front/google
+I didn't use it. 
+
+## Header Component. 
+For showing header component all our pages we can call it on our layout page.
+
+
+

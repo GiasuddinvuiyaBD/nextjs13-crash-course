@@ -1,6 +1,3 @@
-export const metadata = {
-    title: 'Team Tabersy Media'
-}
 
 const TeampPage = () => 
 {
