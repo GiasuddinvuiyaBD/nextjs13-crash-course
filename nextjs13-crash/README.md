@@ -39,3 +39,10 @@ Every custom route we have to create folder name not a file.
 ## Layout part
 If i want to show something all out application. For this perpose we use layout file in nexjs13. 
 
+## Matadata API.
+Inside the matadata we can set global data like title,descript and api related data which will be globel. 
+
+> Note : If we want change some special pages data or title,descript, api etc. For this we can matadata for the specific page. 
+
+
+

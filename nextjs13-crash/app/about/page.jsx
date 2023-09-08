@@ -1,3 +1,8 @@
+export const metadata = {
+    title: 'About Trabersy Media'
+}
+
+
 const About = () => 
 {
     return (
