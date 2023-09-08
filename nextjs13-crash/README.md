@@ -29,4 +29,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 3. custom css description thake namate hobe. 
 
 
+## Routing system next13
+In next13 route work a little bit different. Suppose we want to create a about page route. For making about page route at first we have to create a folder and then we have to create a file calle index.js or index.jsx.
+Every custom route we have to create folder name not a file.
+
+> Note : We can't add class inside the link. Like <Link className={about.module.css}></Link>
+> When we need to use any class for designing or any other thing in that time we need to use a tag. 
+
 
