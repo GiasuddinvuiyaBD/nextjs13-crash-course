@@ -36,4 +36,6 @@ Every custom route we have to create folder name not a file.
 > Note : We can't add class inside the link. Like <Link className={about.module.css}></Link>
 > When we need to use any class for designing or any other thing in that time we need to use a tag. 
 
+## Layout part
+If i want to show something all out application. For this perpose we use layout file in nexjs13. 
 
