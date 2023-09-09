@@ -70,3 +70,12 @@ For showing header component all our pages we can call it on our layout page.
 - No component state. We can not use 'useState' hook
 - No component lifecycle method. we can not use the 'useEffect' hook
 
+### use clinet
+'use clinet' 
+
+
+### Fetching Data From a server component
+Fetching data from a server component which is very easy. While we are fetching data form clinet componete we normaly use useEffect,useState. 
+
+
+
