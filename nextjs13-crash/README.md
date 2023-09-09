@@ -88,6 +88,44 @@ For dynamic routes we make a file  inside the repos call [name] and inside of it
 
 ### param props
 
+### Repo and RepoDir Component. 
+1. Repo will store basic data like name, title, descript etc.
+2. RepoDirs will be list of dirrectory.
+
+For Repo: I have created a component inside the component folder call Repo.jsx. Inside the Repo.jsx we fetch data form.
+```
+    async function fetchRepo(name)
+    {
+        const respone = await fetch(`https://api.github.com/repos/giasuddin/${name}`)
+        const repo = await respone.json(); 
+        return repo;
+    }
+```
+
+Inside the main repo componet we are resive fetchRepo. 
+and then show it to ui. 
+
+Number two 
+RepoDirs 
+Here i have taken data form diractories. 
+
+Here have to practice it again for my better understanding. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

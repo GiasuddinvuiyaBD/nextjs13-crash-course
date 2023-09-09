@@ -1,10 +1,14 @@
-import { FaEye,FaStar,FaCodeBranch } from "react-icons/fa";
+import Link from "next/link";
+import Repo from "@/app/conponents/Repo";
+import RepoDirs from "@/app/conponents/RepoDirs";
+
 const RepoPage = ({params : {name}}) => 
 {
     return(
         <div className="card">
-            <h2>{name}</h2>
-            <p>Repos details</p>
+            <Link href='/code/repos/' className="btn btn-back">Back To Repositories</Link>
+            <Repo name={name} />
+            <RepoDirs name={name} />
         </div>
     )
 }
