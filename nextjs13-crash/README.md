@@ -81,6 +81,13 @@ Fetching data from a server component which is very easy. While we are fetching 
 Inside the repos page we have show our data to ui. by mapping all the data we show it to ui. When use click any item it will go to main page with dynamic routing system. 
 
 ### Custom Loading Page. 
+for making a loading part. We have created a file call loading.js inside it we have desing our loading part and then inside the repos we have created a Promise inside of it we set 1 second. 
+
+### Dynamic routes. 
+For dynamic routes we make a file  inside the repos call [name] and inside of it i have create a page.jsx file. In this file i can added some design. when use click any item. Dynamically every item will come at this page. 
+
+
+
 
 
 
