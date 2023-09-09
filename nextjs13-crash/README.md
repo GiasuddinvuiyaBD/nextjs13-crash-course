@@ -86,6 +86,7 @@ for making a loading part. We have created a file call loading.js inside it we h
 ### Dynamic routes. 
 For dynamic routes we make a file  inside the repos call [name] and inside of it i have create a page.jsx file. In this file i can added some design. when use click any item. Dynamically every item will come at this page. 
 
+### param props
 
 
 

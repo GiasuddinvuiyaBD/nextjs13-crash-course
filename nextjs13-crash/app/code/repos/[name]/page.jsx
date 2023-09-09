@@ -1,7 +1,11 @@
-const RepoPage = () => 
+import { FaEye,FaStar,FaCodeBranch } from "react-icons/fa";
+const RepoPage = ({params : {name}}) => 
 {
     return(
-        <h2>Repos Page</h2>
+        <div className="card">
+            <h2>{name}</h2>
+            <p>Repos details</p>
+        </div>
     )
 }
 
