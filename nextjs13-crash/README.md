@@ -77,5 +77,9 @@ For showing header component all our pages we can call it on our layout page.
 ### Fetching Data From a server component
 Fetching data from a server component which is very easy. While we are fetching data form clinet componete we normaly use useEffect,useState. 
 
+### ReposPage Output
+Inside the repos page we have show our data to ui. by mapping all the data we show it to ui. When use click any item it will go to main page with dynamic routing system. 
+
+
 
 
