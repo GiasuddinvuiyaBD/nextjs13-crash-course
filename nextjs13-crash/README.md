@@ -112,6 +112,15 @@ Here i have taken data form diractories.
 Here have to practice it again for my better understanding. 
 
 
+### Suspense Bundaries. 
+```
+    <Suspense fallback={<div>Loading directories....</div>}>
+        <RepoDirs name={name} />
+    </Suspense>
+```
+RepoDirs i wraped by Suspense inside the suspense i set message. it will show after 3 seconds. 
+
+
 
 
 
