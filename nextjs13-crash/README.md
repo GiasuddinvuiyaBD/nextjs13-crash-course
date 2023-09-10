@@ -120,13 +120,37 @@ Here have to practice it again for my better understanding.
 ```
 RepoDirs i wraped by Suspense inside the suspense i set message. it will show after 3 seconds. 
 
+### cashing and Revalidating
+By default in our production build fetch will cash everything defenetly this is gread for performance. In previous versin of nextJS12 we had getStaticProps and getServerSideProps.
+
+getStaticProps would be more like a static webside were data is realy changing.
+getSeverSideProps fetches data from every single request that's good for often changing. 
+
+... 
+In next13 we will revalide data after fetching. After the url we will take an object, In the object will take another object call next Inside the next object we will revalidate : set second or time
+
+```
+     const response = await fetch(
+        'https://api.github.com/users/giasuddin/repos', {
+            next : {
+                revalidate : 60
+            }
+        }
+        );
+```
+I will add it with repo dirs as well
+I will read more about it in the documentation. 
+
+### API Router Handlers. 
+API Router handlers with postman
+
+### serving course data. 
+Here i will use json.file for course data. we can use some other file like prazme etc. 
+We are practice it with postman.
 
 
-
-
-
-
-
+### Fetching Course Data.
+For fetching course data. At first i will create a component call course inside the component i will show data to UI. 
 
 
 

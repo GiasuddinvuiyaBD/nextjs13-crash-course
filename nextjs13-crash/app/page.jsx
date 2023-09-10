@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Courses from "./conponents/courses";
 const HomePage = () => 
 {
   return(
     <>  
-      <ul>
+      {/* <ul>
         <li>
           <Link href='/'>Home</Link>
         </li>
@@ -13,7 +14,8 @@ const HomePage = () =>
         <li>
           <Link href='/about/team'>Team</Link>
         </li>
-      </ul>
+      </ul> */}
+      <Courses />
     </>
   )
 }
