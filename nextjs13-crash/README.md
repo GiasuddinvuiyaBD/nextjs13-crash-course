@@ -153,7 +153,8 @@ We are practice it with postman.
 For fetching course data. At first i will create a component call course inside the component i will show data to UI. 
 
 
-
+### Getting Search Params
+In the page couse i will create another folder call search inside of it i will creat file rout.js
 
 
 
