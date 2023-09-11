@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import Courses from "./conponents/courses";
 import LoadingPage from "./loading";
+import CourseSearch from "./conponents/CourseSearch";
 
 const HomePage = () => 
 {
@@ -16,7 +17,7 @@ const HomePage = () =>
     {
       const res = await fetch(`http://localhost:3000/api/courses`);
       const data = await res.json(); 
-      setCourses(courses);
+      setCourses(data);
       setLoading(false)
     }); 
     fetchCourses();
@@ -29,6 +30,7 @@ const HomePage = () =>
 
   return(
     <>  
+      <CourseSearch getSearchResults={(results) => setCourses(results)} />
       <Courses courses={courses} />
     </>
   )
