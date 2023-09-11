@@ -19,5 +19,19 @@
         "description" : "Learn mordern DSA, with me",
         "link" : "https://www.youtube.com/watch?v=Y6KDk5iyrYE&t=2s",
         "level" : "intermideate"
+    },
+    {
+        "id" : 4,
+        "title" : "Hyper text markup language",
+        "description" : "Learn mordern html, with me",
+        "link" : "https://www.youtube.com/watch?v=Y6KDk5iyrYE&t=2s",
+        "level" : "Zero to hero"
+    },
+    {
+        "id" : 5,
+        "title" : "Chasecading style sheet",
+        "description" : "Learn mordern css, with me",
+        "link" : "https://www.youtube.com/watch?v=Y6KDk5iyrYE&t=2s",
+        "level" : "master level"
     }
 ]

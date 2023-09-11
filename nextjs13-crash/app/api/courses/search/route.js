@@ -10,6 +10,5 @@ export async function GET(request)
     {
         return course.title.toLowerCase().includes(query.toLocaleLowerCase())
     })
-
     return NextResponse.json(filterdCourse);
 }
