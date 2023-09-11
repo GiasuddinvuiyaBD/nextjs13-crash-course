@@ -159,7 +159,8 @@ In the page couse i will create another folder call search inside of it i will c
 ### Getting Body Data. 
 I have created item by using postman body. i i want to konw more about it. i need review my code. 
 
-
+### Refactor server to clined component. 
+Now i want to create a search component. 
 
 
 
